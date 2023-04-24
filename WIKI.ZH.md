@@ -1,3 +1,11 @@
+# 重要通知！
+Backtrader_Bokeh 已经全面更新到 [Noba](https://github.com/iniself/noba)。Noba 拥有更加丰富的功能，比如增加了 ioc 容器， 事件系统，管道系统和一个数据库抽象层
+
+我们建议你停止使用 Backtrader_Bokeh 。 但是如果你还希望继续使用，没有问题，我们会一直提供相关支持
+
+下面的内容是 Backtrader_Bokeh 的 wiki 页面 
+
+***
 用过 Backtrader 都知道它的可视化是用的 `matplotlib` , 好处是开箱即用，因为 `matplotlib` 是 Backtrader的默认可视化后端，但缺点就是 `matplotlib`的绘图还是不够日常需要。说到图片文字的展示，有没有可能在浏览器里展示策略数据和分析结果的呢？答案就是 Backtrader和 Bokeh 的结合产品：[Backtrader_Bokeh](https://github.com/iniself/backtrader_bokeh)。 在 [示例](https://iniself.github.io/backtrader_bokeh/) 这里可以感受 Backtrader_Bokeh 的可视化效果。 *\* 只展示部分示例，全部示例请自行运行 [demos](https://github.com/iniself/backtrader_bokeh/tree/main/demos/) 下的代码*
 
 `Backtrader_Bokeh`继承自 [backtrader_plotting](https://github.com/verybadsoldier/backtrader_plotting) 和 [btplotting](https://github.com/happydasch/btplotting) ，对两者的问题做了修正并且计划推出更加适合量化框架 Backtrader 的一系列新特性。欢迎来 github 上关注及讨论，并积极通过 **star**、**issue** 等方式来支持该项目。我们还录制了一些关于 Backtrader_Bokeh 的视频放在 [B 站](https://space.bilibili.com/688174975/channel/seriesdetail?sid=2456734)。同时推荐 **Aui 团队**的另外两个产品：[Aui(在线相册+应用)](https://aui.photos/aui/about/)、[检查指标小帮手(微信小程序)](https://aui.photos/helper/about/)

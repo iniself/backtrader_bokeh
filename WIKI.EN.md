@@ -1,3 +1,12 @@
+# Important Note!
+Backtrader_Bokeh has been fully upgraded to [Noba](https://github.com/iniself/noba) which has richer feature, such as ioc container, event system, pipeline system, and a database abstraction layer
+
+Perhaps you should not use this Backtrader_Bokeh again, but if you insist on using it, there is no problem, and we also provide support.
+
+The following is wiki to the Backtrader_Bokeh. 
+
+Regards
+***
 Welcome to the backtrader_bokeh wiki!
 
 Everyone who has used backtrader knows that it's plot backend is Matplotlib. The advantage is that Matplotlib is the default backend of backtrader, but the disadvantage is that Matplotlib is relatively weak in interaction and other aspects. How can the strategy data and analysis results be display in the browser? The answer is **[Backtrader_Bokeh](https://github.com/iniself/backtrader_bokeh)** which combined Backtrader and Bokeh。 Check the [example](https://iniself.github.io/backtrader_bokeh/) , you can see the plot effect via Backtrader_Bokeh.   *\* just present part of demos, all demos pls run `*.py` in [demos](https://github.com/iniself/backtrader_bokeh/tree/main/demos/)*
